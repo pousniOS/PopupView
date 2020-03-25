@@ -16,8 +16,8 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "PopupView"
-  spec.version      = "0.0.1"
-  spec.summary      = "弹窗工具让需要弹出的内容按照其添加的时间顺序先后依次弹出"
+  spec.version      = "0.0.2"
+  spec.summary      = "弹窗工具让需要弹出的内容按照其添加的时间顺序先后依次弹出。"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/PopupView.git", :tag => "0.0.1" }
+  spec.source       = { :git => "http://EXAMPLE/PopupView.git", :tag => "0.0.2" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
