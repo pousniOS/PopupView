@@ -16,7 +16,7 @@
 		184EEA10242B5E7F00A42A26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 184EEA0F242B5E7F00A42A26 /* main.m */; };
 		184EEA1A242B5E7F00A42A26 /* PopupViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 184EEA19242B5E7F00A42A26 /* PopupViewTests.m */; };
 		184EEA25242B5E7F00A42A26 /* PopupViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 184EEA24242B5E7F00A42A26 /* PopupViewUITests.m */; };
-		184EEA34242B5EC700A42A26 /* Popuup.m in Sources */ = {isa = PBXBuildFile; fileRef = 184EEA32242B5EC700A42A26 /* Popuup.m */; };
+		184EEA3C242B65A600A42A26 /* Popuup.m in Sources */ = {isa = PBXBuildFile; fileRef = 184EEA3B242B65A600A42A26 /* Popuup.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +55,8 @@
 		184EEA20242B5E7F00A42A26 /* PopupViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopupViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		184EEA24242B5E7F00A42A26 /* PopupViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopupViewUITests.m; sourceTree = "<group>"; };
 		184EEA26242B5E7F00A42A26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		184EEA32242B5EC700A42A26 /* Popuup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Popuup.m; sourceTree = "<group>"; };
-		184EEA33242B5EC700A42A26 /* Popuup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Popuup.h; sourceTree = "<group>"; };
+		184EEA3A242B65A600A42A26 /* Popuup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Popuup.h; sourceTree = "<group>"; };
+		184EEA3B242B65A600A42A26 /* Popuup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Popuup.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +87,7 @@
 		184EE9F1242B5E7B00A42A26 = {
 			isa = PBXGroup;
 			children = (
+				184EEA39242B65A600A42A26 /* Classes */,
 				184EE9FC242B5E7B00A42A26 /* PopupView */,
 				184EEA18242B5E7F00A42A26 /* PopupViewTests */,
 				184EEA23242B5E7F00A42A26 /* PopupViewUITests */,
@@ -107,8 +108,6 @@
 		184EE9FC242B5E7B00A42A26 /* PopupView */ = {
 			isa = PBXGroup;
 			children = (
-				184EEA33242B5EC700A42A26 /* Popuup.h */,
-				184EEA32242B5EC700A42A26 /* Popuup.m */,
 				184EE9FD242B5E7B00A42A26 /* AppDelegate.h */,
 				184EE9FE242B5E7B00A42A26 /* AppDelegate.m */,
 				184EEA00242B5E7B00A42A26 /* SceneDelegate.h */,
@@ -140,6 +139,15 @@
 				184EEA26242B5E7F00A42A26 /* Info.plist */,
 			);
 			path = PopupViewUITests;
+			sourceTree = "<group>";
+		};
+		184EEA39242B65A600A42A26 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				184EEA3A242B65A600A42A26 /* Popuup.h */,
+				184EEA3B242B65A600A42A26 /* Popuup.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,7 +284,7 @@
 				184EE9FF242B5E7B00A42A26 /* AppDelegate.m in Sources */,
 				184EEA10242B5E7F00A42A26 /* main.m in Sources */,
 				184EEA02242B5E7B00A42A26 /* SceneDelegate.m in Sources */,
-				184EEA34242B5EC700A42A26 /* Popuup.m in Sources */,
+				184EEA3C242B65A600A42A26 /* Popuup.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
